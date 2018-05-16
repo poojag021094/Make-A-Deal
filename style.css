@@ -1,0 +1,37 @@
+
+body{
+  background: #333;
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+  text-align: center;
+}
+.container, .door-container{
+  text-align: center;
+  margin: 20px auto;
+}
+.door{
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+h1,p,a{
+  font-family: Consolas, monaco, minivan, sans-serif;
+  color: white;
+}
+.sad_smile{
+  width: 500px;
+  height: 500px;
+  margin-left: 450px;
+  background-image: url("resources/Sad_smiley.jpg");
+  background-size: cover;
+}
+.good_smile{
+  width: 500px;
+  height: 500px;
+  margin-left: 450px;
+  background-image: url("resources/Big_smile.png");
+  background-size: cover;
+a{
+  top: 50px;
+}
